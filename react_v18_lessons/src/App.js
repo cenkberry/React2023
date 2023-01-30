@@ -1,7 +1,13 @@
+import React from 'react';
+import {Example1,Example2,Example3} from './Lesson 1 - Understand JSX/Lesson1';
 
 function App() {
   return (
-    <div>Hello World!!</div>
+    <>
+    <Example1 />
+    <Example2 />
+    <Example3 />
+    </>
   );
 }
 
