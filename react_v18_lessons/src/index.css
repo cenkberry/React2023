@@ -15,3 +15,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div[class*='Lesson'] {
+  margin-bottom: 30px;
+}
+
+div[class*='Lesson'] > div {
+  margin-bottom: 30px;
+}
+
+.homer {
+  background-color: brown;
+  padding: 16px 24px;
+}
+.homer img {
+  margin-top: 20px;
+}
+
+button {
+  padding: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  margin: 4px;
+}
