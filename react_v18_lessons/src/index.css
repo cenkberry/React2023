@@ -39,3 +39,16 @@ button {
   border: none;
   margin: 4px;
 }
+
+.exampleHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  color: rgb(0, 0, 0);
+  height: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
