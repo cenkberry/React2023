@@ -1,17 +1,17 @@
 import React from 'react';
 
-//////////////////////////////////--- Example 1 - Props  ---////////////////////////////////////////////////
+////////////////////////////////// Props - 1 ///////////////////////////////////////////////
     // Usage of props in React//
     function ChildComponent(props) {
         return(
-            <h1>Example 1 - Props  - {props.name} {props.surname}</h1>
+            <h1> Props - 1  - {props.name} {props.surname}</h1>
         );
     }
         
     function Example1() {
         return (
             <div>
-            <div className="exampleHeader">Example 1 - Props </div>
+            <div className="exampleHeader"> Props - 1 </div>
                 <ChildComponent name="Sara"  surname="Berry" />
                 <ChildComponent name="Cenk" surname="Berry"/>
                 <ChildComponent name="Nicole" surname="Berry"/>
@@ -20,13 +20,13 @@ import React from 'react';
     }
 
 
-////////////////////////////////// Example 2 - Props ////////////////////////////////////////////////
+////////////////////////////////// Props - 2 ////////////////////////////////////////////////
     // Usage of props in React//
     function ChildComponent2(props) {
         return(
             <div>
-                <div className="exampleHeader"> Example 2 - Props</div>
-                <h1> Example 2 - Props</h1>
+                <div className="exampleHeader">Props - 2</div>
+                <h1>Props - 2</h1>
                 <h3>Hi! I am {props.altText}</h3>
                 <img src={props.address} alt={props.altText} />
             </div>
@@ -43,7 +43,7 @@ import React from 'react';
     }
 
 
-////////////////////////////////// Example 3 - Props ////////////////////////////////////////////////
+////////////////////////////////// Props - 3 ////////////////////////////////////////////////
     // Usage of class in React//
     class Example3 extends React.Component {
         constructor(props) {
@@ -59,15 +59,15 @@ import React from 'react';
         render() {
             return (
                 <div>
-                    <div className="exampleHeader">Example 3 - Props </div>
-                    <h1>Example 3 - Props  - {this.states.name} {this.states.surname} is {this.states.date.getFullYear() - this.states.birthYear} years old.</h1>
+                    <div className="exampleHeader">Props - 3</div>
+                    <h1>Props - 3 - {this.states.name} {this.states.surname} is {this.states.date.getFullYear() - this.states.birthYear} years old.</h1>
                 </div> 
             )
         }
     }
 
 
-////////////////////////////////// Example 4 - Class ////////////////////////////////////////////////
+////////////////////////////////// Class ////////////////////////////////////////////////
     // Usage of class in React//
     class Example4 extends React.Component {
         constructor(props) {
@@ -91,7 +91,7 @@ import React from 'react';
         render() {
             return (
                 <div>
-                    <div className="exampleHeader"> Example 4 - Class </div>
+                    <div className="exampleHeader"> Class </div>
                     <h1>{this.state.comments.toString()}</h1>
                     <button onClick={this.handleClick}>Get Empty</button>
                     <button onClick={this.handleClick2}>Add Comment</button>

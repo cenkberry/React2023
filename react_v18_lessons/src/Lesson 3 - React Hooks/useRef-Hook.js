@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState} from 'react';
 
-////////////////////////////////// Example 1 - useRef ////////////////////////////////////////////////
+////////////////////////////////// useRef - 1 ////////////////////////////////////////////////
     function ExampleOfUseRef1(){
         const inputRef = useRef(null);
         const [message, setMessage] = useState(null);
@@ -25,7 +25,7 @@ import React, { useRef, useState } from 'react';
 
         return(
             <div>
-                <div className="exampleHeader">Example 1 - useRef</div>
+                <div className="exampleHeader">useRef - 1</div>
                 <form>
                     <input
                         onClick={() => setMessage("")}
@@ -41,7 +41,7 @@ import React, { useRef, useState } from 'react';
     }
 
 
-////////////////////////////////// Example 2 - useRef ////////////////////////////////////////////////
+////////////////////////////////// useRef - 2 ////////////////////////////////////////////////
     function ExampleOfUseRef2(){
         const refDiv = useRef(null);
         const [divMessage, setDivMessage] = useState("This is current div...");
@@ -58,7 +58,7 @@ import React, { useRef, useState } from 'react';
 
         return(
             <div>
-                <div className="exampleHeader">Example 2 - useRef</div>
+                <div className="exampleHeader">useRef - 2</div>
                 <div ref={refDiv}>{divMessage}</div>
                 <button onClick={handleDiv}>Handle</button>
             </div>

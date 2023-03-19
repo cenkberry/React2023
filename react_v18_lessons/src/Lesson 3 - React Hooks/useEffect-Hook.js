@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 
-////////////////////////////////// Example 1 - useEffect ////////////////////////////////////////////////
+////////////////////////////////// useEffect - 1 ////////////////////////////////////////////////
 
 function ExampleOfUseEffect1() {
     const [count, setCount] = useState(0);
@@ -12,7 +12,7 @@ function ExampleOfUseEffect1() {
   
     return (
       <div>
-        <div className="exampleHeader">Example 1 - useEffect</div>
+        <div className="exampleHeader">useEffect - 1</div>
         <p>You clicked {count} times</p>
         <button onClick={() => setCount(count + 1)}>
           Click me
@@ -23,7 +23,7 @@ function ExampleOfUseEffect1() {
 
 
 
- //////////////////////////////////  Example 2 - useEffect ////////////////////////////////////////////////
+ ////////////////////////////////// useEffect - 2 ////////////////////////////////////////////////
 
  function ExampleOfUseEffect2() {
     const [loginStatus, isLoginStatus] = useState(false);
@@ -37,7 +37,7 @@ function ExampleOfUseEffect1() {
 
     return (
         <div>
-          <div className="exampleHeader">Example 2 - useEffect</div>
+          <div className="exampleHeader">useEffect - 2</div>
           <div>{sysMessage}</div>
           <button onClick={() => isLoginStatus(true)}>
               Login
