@@ -1,0 +1,10 @@
+.h1Style{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid salmon;
+}
